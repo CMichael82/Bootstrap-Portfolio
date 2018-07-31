@@ -10,9 +10,14 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-sm navbar-light bg-light">
+	<!-- A full width navbar -->
+	<nav class="navbar navbar-expand-sm border-bottom">
+
+	<!-- Navbar content at 960px -->
+		<div class="container">
+
 		<!-- Logo -->
-		<a href="" class="navbar-brand">Carolyn Michael</a>
+			<div class="navbar-brand font-weight-bold">Carolyn Michael</div>
 		
 		<!-- Menu -->
 			<div class="collapse navbar-collapse">
@@ -22,24 +27,32 @@
 					<li class="nav-item"><a href="./portfolio.html" class="nav-link">Portfolio</a></li>
 				</ul>
 			</div>
-		</nav>
+		</div>
+	</nav>
 	
-		<div class="container border">
-			<main>
-				<h1>About Me</h1>
+	<main class="container">
+			
+			<div class="row">
+				<div class="col-md-12">
+						<h1 class="font-weight-bold">About Me</h1>
+					<hr>
+				</div>
+			</div>
 				
-				<img src="./images/Carolyn.jpg" alt="Me" class="img-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="./images/Carolyn.jpg" alt="Me" class="img-fluid">
+				</div>
+				
 
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, magni inventore ratione officiis veniam debitis eos odio architecto voluptatibus quas voluptate? Numquam laudantium enim tenetur incidunt molestiae provident vero dolore.
-				</p>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi omnis repudiandae doloremque nam quis exercitationem sunt ipsa, consequuntur debitis commodi deleniti reprehenderit ipsam vitae saepe aliquam sapiente maiores consequatur est!</p>
-			</main>
+				<div class="col-md-9">
+					<p>Born in rural Virginia and raised on land that her ancestors purchased in the 1800’s, Carolyn did not foresee leaving her large family and living 2,100 miles from home. However, in 2002 she was given the opportunity to move to Utah and fell in love with both the state and the feeling of exploration. Carolyn has spent the time since discovering new places, friends, and interests. She returned to Virginia to complete her degree, graduating from Bridgewater College in 2009 with a bachelor’s in Business Administration and a concentration in Accounting. She worked as an accountant in the aviation field before returning to Utah in 2013. Always willing to learn new skills, Carolyn accepted a position as a Compounding Pharmacy Technician and despite being unfamiliar with pharmacy is now a lab supervisor. In her free time, she enjoys talking with friends and family, reading, camping, and trail running.</p>
+				</div>
+	</main>
+
+		<div class="container-fluid footer text-center">
+			<span class="text-white">Copyright&copy;</span>
 		</div>
 
-	<footer class="footer bg-dark">
-		<div class="container text-center">
-			<span class="text-muted">Copyright&copy;</span>
-		</div>
-	</footer>
 </body>
 </html>

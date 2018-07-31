@@ -1,10 +1,53 @@
-.footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	}
+/*Set background image and overall font*/
+body {
+	background-image: url(./images/circles-light.png);
+	color: #777;
+	font-family: Arial, Helvetica, sans-serif;
+}
 
-	img {
-		width: 200px;
-		height: 250px;
-	}
+/*Navbar background*/
+nav {
+	background-color: #fff;
+}
+
+/*Logo*/
+.navbar-brand {
+	background-color: #4aaaa5; /*Teal*/
+	color: #ffffff;
+	font-size: 24px;
+	height: 60px;
+	padding-top: 15px;
+	margin-bottom: -8px;
+	text-align: center;
+	width: 250px;
+}
+
+/*Change color of nav-links*/
+.nav-link {
+	color:#777;
+}
+
+/*Main section settings*/
+main {
+	margin: 50px auto;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+
+/*Set heading color & font*/
+h1 {
+	color: #4aaaa5;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Footer - including sticky position*/
+.footer {
+	background-color:#666;
+	border-top: 10px solid #4aaaa5;
+	bottom: 0;
+	font-size: 12px;
+	height: 50px;
+	padding-top: 15px;
+	position: absolute;
+}
