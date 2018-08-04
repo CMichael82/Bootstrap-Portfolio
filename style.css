@@ -33,7 +33,8 @@ main {
 	background-color: #fff;
 	border: 1px solid #ddd;
 	padding: 15px;
-}
+	overflow: auto;
+	}
 
 /*Set heading color & font*/
 h1 {
@@ -45,9 +46,21 @@ h1 {
 .footer {
 	background-color:#666;
 	border-top: 10px solid #4aaaa5;
-	bottom: 0;
 	font-size: 12px;
 	height: 50px;
 	padding-top: 15px;
-	position: absolute;
+	}
+
+/*Change color of submit button on contact form*/
+.btn-info {
+	background-color: #4aaaa5;
+}
+
+/*Style card title on Portfolio Images*/
+.card-title {
+	background: #4aaaa5;
+	color: #ffffff;
+	font-size: 24px;
+	padding: 10px;
+	text-align: center;
 }

@@ -1,1 +1,3 @@
 # Bootstrap-Portfolio
+
+This assignment recreated the basic portfolio (assignment 1) primarily using bootstrap. To recreate the navigation bar and logo, I used bootstrap's navbar (navbar-expanded, navbar brand, nav-item, and nav-link). The content sections used the grid system with containers, rows, and columns. For the contact page, I used the form-group items. The pictures and tags on the portfolio page were created using bootstrap's cards. An external style sheet was added to override bootstrap's default styles - However, I tried to limit the use of overrides in order to use bootstrap more fully. 
